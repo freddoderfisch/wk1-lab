@@ -69,4 +69,4 @@ p2 <- ggplot(team_data, aes(x = hobby)) +
 p2
 ```
 
-It is bad cos everyone got different hobbies so if it was extrapolated t the whole class there would just be a lot of bar charts with the same value. A table would be a better representation of the data.
+It is bad cos everyone got different hobbies so if it was extrapolated t the whole class there would just be a lot of bars with the same value. A table would be a better representation of the data.
