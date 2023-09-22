@@ -47,19 +47,19 @@ p1
 ```
 
 
-*Remove this text (including the stars), and add your answer for Exercise 18 here.*
+It shows our favourite numbers ranked and the bars are our favourite colours
 
 ### Exercises 19
 
 Change the text of the plot title and axis labels.
 
 ```{r labelled-bar-plot}
-p1 + labs(x = "Insert text here", 
-          y = "Insert text here",
-          title = "Insert text here")
+p1 + labs(x = "usernames", 
+          y = "favourite number",
+          title = "The Teams Favourite Numbers")
 ```
 
-*Remove this text (including the stars), and add your answer for Exercise 19 here.*
+It allows you to give your graph axis titles and a heading
 
 ### Exercise 20
 
@@ -69,4 +69,4 @@ p2 <- ggplot(team_data, aes(x = hobby)) +
 p2
 ```
 
-*Remove this text (including the stars) and add your answer for Exercise 20 here.*
+It is bad cos everyone got different hobbies so if it was extrapolated t the whole class there would just be a lot of bar charts with the same value. A table would be a better representation of the data.
